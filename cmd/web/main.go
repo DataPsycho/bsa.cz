@@ -14,7 +14,7 @@ type application struct {
 
 func main() {
 	// CLI for Config
-	addr := flag.String("addr", ":4000", "HTTP network address")
+	addr := flag.String("addr", ":8080", "HTTP network address")
 	flag.Parse()
 
 	// Custom Loggers
